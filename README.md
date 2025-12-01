@@ -1,6 +1,16 @@
 # EngineeringTeam Crew
 
-Welcome to the EngineeringTeam Crew project, powered by [crewAI](https://crewai.com). This template is designed to help you set up a multi-agent AI system with ease, leveraging the powerful and flexible framework provided by crewAI. Our goal is to enable your agents to collaborate effectively on complex tasks, maximizing their collective intelligence and capabilities.
+This project is based on crewai agentic framework. It is an engineering team consisting of four members:
+
+1. Engineering lead
+2. Frontend engineer
+3. Backend engineer
+4. Test Engineer
+
+This project addresses the problem of building a simple account management system for a trading simulation platform, enabling users to create accounts, deposit and withdraw funds with safeguards against negative balances, record buy and sell transactions while preventing purchases beyond available funds and sales beyond owned shares, track holdings, compute total portfolio value using a provided share price function with test prices for AAPL, TSLA, and GOOGL, calculate profit or loss relative to initial deposits, and list all transactions so users can view their financial activity at any point in time.
+
+Test engineer and backend engineer ran the code in a docker cointainer for testing out the code. The frontend engineer prepared a Gradio UI.
+
 
 ## Installation
 
@@ -39,16 +49,4 @@ This command initializes the engineering_team Crew, assembling the agents and as
 
 This example, unmodified, will run the create a `report.md` file with the output of a research on LLMs in the root folder.
 
-## Understanding Your Crew
 
-The engineering_team Crew is composed of multiple AI agents, each with unique roles, goals, and tools. These agents collaborate on a series of tasks, defined in `config/tasks.yaml`, leveraging their collective skills to achieve complex objectives. The `config/agents.yaml` file outlines the capabilities and configurations of each agent in your crew.
-
-## Support
-
-For support, questions, or feedback regarding the EngineeringTeam Crew or crewAI.
-- Visit our [documentation](https://docs.crewai.com)
-- Reach out to us through our [GitHub repository](https://github.com/joaomdmoura/crewai)
-- [Join our Discord](https://discord.com/invite/X4JWnZnxPb)
-- [Chat with our docs](https://chatg.pt/DWjSBZn)
-
-Let's create wonders together with the power and simplicity of crewAI.
