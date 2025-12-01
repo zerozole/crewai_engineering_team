@@ -47,6 +47,8 @@ $ crewai run
 
 This command initializes the engineering_team Crew, assembling the agents and assigning them tasks as defined in your configuration.
 
-This example, unmodified, will run the create a `report.md` file with the output of a research on LLMs in the root folder.
+After this app.py file will be generated in the output folder in your directory. Run it for the application created by the engineering team to be launched.
+
+
 
 
